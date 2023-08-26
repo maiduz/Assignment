@@ -3,12 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.parameterrization_assignment.maven.Parameterization">
+      <class name="com.testNG.assignment.First_TestNG_Assignment">
         <methods>
-          <include name="commonMethod"/>
-          <include name="tnLogin"/>
+          <include name="registerTestCase1"/>
+          <include name="tearDown"/>
+          <include name="registerTestCase2"/>
+          <include name="registerTestCase3"/>
+          <include name="commonFunction"/>
         </methods>
-      </class> <!-- com.parameterrization_assignment.maven.Parameterization -->
+      </class> <!-- com.testNG.assignment.First_TestNG_Assignment -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
